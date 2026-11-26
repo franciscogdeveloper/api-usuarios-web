@@ -4,7 +4,10 @@ SPA en React que consume la API REST de usuarios ([api-usuarios](../api-usuarios
 
 ## Demo
 
-_Pendiente: enlace al despliegue en Vercel._
+- **App:** https://api-usuarios-web.vercel.app
+- **API (backend):** https://api-usuarios-q70b.onrender.com/docs · [repositorio](https://github.com/franciscogdeveloper/api-usuarios)
+
+> La API está en el plan gratuito de Render: si lleva un rato sin uso, la primera petición puede tardar 30-60 s (la app muestra un aviso mientras el servidor despierta).
 
 ## Funcionalidades
 
