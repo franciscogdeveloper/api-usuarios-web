@@ -15,5 +15,7 @@ export default defineConfig({
     environment: 'jsdom',
     setupFiles: ['./src/test/setup.ts'],
     globals: false,
+    // En modo "test" Vite no carga .env.development, así que fijamos la URL aquí.
+    env: { VITE_API_URL: 'http://localhost:3000/api' },
   },
 })
